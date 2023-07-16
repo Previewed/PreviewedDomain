@@ -1,0 +1,244 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Inter:wght@400;500;600;700;800;900&display=fallback');
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@400;500;600;700;800;900&display=fallback'); */
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+  .outline-blue {
+    outline-color: blue;
+  }
+}
+
+:focus,
+button:focus,
+.btn:focus,
+.btn-sm:focus,
+.form-input:focus,
+.form-textarea:focus,
+.form-multiselect:focus,
+.form-select:focus,
+.form-checkbox:focus,
+.form-radio:focus {
+  @apply outline-blue;
+}
+
+.form-input,
+.form-textarea,
+.form-multiselect,
+.form-select,
+.form-checkbox,
+.form-radio {
+  &:focus {
+    box-shadow: none !important;
+  }
+}
+
+/* Hamburger button */
+.hamburger {
+  svg > * {
+    &:nth-child(1),
+    &:nth-child(2),
+    &:nth-child(3) {
+      transform-origin: center;
+      transform: rotate(0deg);
+    }
+
+    &:nth-child(1) {
+      transition: y 0.075s 0.12s ease, opacity 0.075s ease,
+        transform 0.075s cubic-bezier(0.55, 0.055, 0.675, 0.19);
+    }
+
+    &:nth-child(2) {
+      transition-property: transform;
+      transition-duration: 0.075s;
+      transition-timing-function: cubic-bezier(0.55, 0.055, 0.675, 0.19);
+    }
+
+    &:nth-child(3) {
+      transition: y 0.075s 0.12s ease,
+        transform 0.075s cubic-bezier(0.55, 0.055, 0.675, 0.19);
+    }
+  }
+
+  &.active {
+    svg > * {
+      &:nth-child(1) {
+        opacity: 0;
+        transform: rotate(45deg);
+        y: 11;
+        transition: y 0.075s ease, opacity 0.075s 0.12s ease,
+          transform 0.075s 0.12s cubic-bezier(0.215, 0.61, 0.355, 1);
+      }
+
+      &:nth-child(2) {
+        transform: rotate(45deg);
+        transition-delay: 0.12s;
+        transition-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
+      }
+
+      &:nth-child(3) {
+        y: 11;
+        transform: rotate(-45deg);
+        transition: y 0.075s ease,
+          transform 0.075s 0.12s cubic-bezier(0.215, 0.61, 0.355, 1);
+      }
+    }
+  }
+}
+
+/* // Light switch */
+.form-switch {
+  input[type='checkbox'].light-switch {
+    + label {
+      @apply bg-teal-500;
+
+      > span:first-child {
+        .dark & {
+          left: 22px;
+        }
+      }
+    }
+  }
+}
+
+.form-switch {
+  @apply relative select-none;
+  width: 44px;
+
+  label {
+    @apply block overflow-hidden cursor-pointer h-6 rounded-full;
+
+    > span:first-child {
+      @apply absolute block rounded-full;
+      width: 20px;
+      height: 20px;
+      top: 2px;
+      left: 2px;
+      right: 50%;
+      transition: all 0.15s ease-out;
+    }
+  }
+
+  input[type='checkbox'] {
+    &:checked {
+      + label {
+        @apply bg-teal-500;
+
+        > span:first-child {
+          left: 22px;
+        }
+      }
+    }
+  }
+}
+
+.h1 {
+  @apply text-4xl font-semibold tracking-tighter;
+}
+
+.h2 {
+  @apply text-3xl font-extrabold tracking-tighter;
+}
+
+.h3 {
+  @apply text-3xl font-extrabold;
+}
+
+.h4 {
+  @apply text-2xl font-extrabold tracking-tight;
+}
+
+@media (min-width: 768px) {
+  .h1 {
+    @apply text-5xl;
+  }
+
+  .h2 {
+    @apply text-4xl;
+  }
+}
+
+.btn,
+.btn-sm {
+  @apply font-medium inline-flex items-center justify-center border border-transparent rounded leading-snug transition duration-150 ease-in-out;
+}
+
+.btn {
+  @apply px-8 py-3;
+}
+
+.btn-sm {
+  @apply px-4 py-2;
+}
+
+.form-input,
+.form-textarea,
+.form-multiselect,
+.form-select,
+.form-checkbox,
+.form-radio {
+  @apply bg-white border border-gray-300 focus:border-gray-400;
+}
+
+.form-input,
+.form-textarea,
+.form-multiselect,
+.form-select,
+.form-checkbox {
+  @apply rounded;
+}
+
+.form-input,
+.form-textarea,
+.form-multiselect,
+.form-select {
+  @apply leading-snug py-3 px-4;
+}
+
+.form-input,
+.form-textarea {
+  @apply placeholder-gray-500;
+}
+
+.form-select {
+  @apply pr-10;
+}
+
+.form-checkbox,
+.form-radio {
+  @apply text-teal-600;
+}
+
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+
+.no-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+.dark {
+  .h4 {
+    @apply font-bold;
+  }
+
+  .form-input,
+  .form-textarea,
+  .form-multiselect,
+  .form-select,
+  .form-checkbox,
+  .form-radio {
+    @apply bg-gray-800 border border-gray-600 focus:border-gray-500;
+  }
+
+  .form-input,
+  .form-textarea {
+    @apply placeholder-gray-400;
+  }
+}
+
+/* $aos-distance: 16px; */
+/* @import 'aos/dist/aos.css'; */
