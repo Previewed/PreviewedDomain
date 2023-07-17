@@ -11,7 +11,7 @@ export function FeaturesBlocks(props: FeaturesBlocksProps) {
           {/* Section header */}
           <div className="max-w-3xl mx-auto text-center pb-12 md:pb-20">
             <h2 className="font-bold text-3xl">
-              Put clarity at the center of your website
+              Register, Discover, Record, Succeed!
             </h2>
           </div>
 
