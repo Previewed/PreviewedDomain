@@ -18,11 +18,11 @@ export function PricingTables(props: PricingTablesProps) {
             {/* Section header */}
             <div className="max-w-3xl mx-auto text-center pb-12">
               <h2 className="font-bold text-lg md:text-2xl lg:text-3xl mb-4 text-gray-800">
-                Start building for free, then add a plan to go live
+                Choose Your Path to Success – Find Your Dream Job or Attract Top Talent with Previewed!
               </h2>
               <p className="text-xl text-gray-400">
-                Excepteur sint occaecat cupidatat non proident, sunt in culpa
-                qui officia deserunt mollit laborum — semper quis lectus nulla.
+                Previewed offers flexible pricing plans to cater to the diverse needs of job seekers and employers. 
+                Choose the plan that suits you best and start your journey towards finding your dream job or attracting top talent.
               </p>
             </div>
 
@@ -55,7 +55,7 @@ export function PricingTables(props: PricingTablesProps) {
                     >
                       <path d="M10.28 2.28L3.989 8.575 1.695 6.28A1 1 0 00.28 7.695l3 3a1 1 0 001.414 0l7-7A1 1 0 0010.28 2.28z" />
                     </svg>
-                    <span>Unlimited domains</span>
+                    <span>Job Seeker Access</span>
                   </li>
                   <li className="flex items-center mb-2">
                     <svg
@@ -65,7 +65,7 @@ export function PricingTables(props: PricingTablesProps) {
                     >
                       <path d="M10.28 2.28L3.989 8.575 1.695 6.28A1 1 0 00.28 7.695l3 3a1 1 0 001.414 0l7-7A1 1 0 0010.28 2.28z" />
                     </svg>
-                    <span>Unlimited web pages</span>
+                    <span>Employer Access</span>
                   </li>
                   <li className="flex items-center mb-2">
                     <svg
@@ -75,7 +75,7 @@ export function PricingTables(props: PricingTablesProps) {
                     >
                       <path d="M10.28 2.28L3.989 8.575 1.695 6.28A1 1 0 00.28 7.695l3 3a1 1 0 001.414 0l7-7A1 1 0 0010.28 2.28z" />
                     </svg>
-                    <span>Conversion analytics</span>
+                    <span>Personalized Matching</span>
                   </li>
                   <li className="flex items-center mb-2">
                     <svg
@@ -85,7 +85,7 @@ export function PricingTables(props: PricingTablesProps) {
                     >
                       <path d="M10.28 2.28L3.989 8.575 1.695 6.28A1 1 0 00.28 7.695l3 3a1 1 0 001.414 0l7-7A1 1 0 0010.28 2.28z" />
                     </svg>
-                    <span>A/B testing</span>
+                    <span>Immersive Videos</span>
                   </li>
                   <li className="flex items-center mb-2">
                     <svg
@@ -95,7 +95,7 @@ export function PricingTables(props: PricingTablesProps) {
                     >
                       <path d="M10.28 2.28L3.989 8.575 1.695 6.28A1 1 0 00.28 7.695l3 3a1 1 0 001.414 0l7-7A1 1 0 0010.28 2.28z" />
                     </svg>
-                    <span>Exclusive channels</span>
+                    <span>Application Tracking</span>
                   </li>
                   <li className="flex items-center mb-2">
                     <svg
@@ -105,7 +105,7 @@ export function PricingTables(props: PricingTablesProps) {
                     >
                       <path d="M10.28 2.28L3.989 8.575 1.695 6.28A1 1 0 00.28 7.695l3 3a1 1 0 001.414 0l7-7A1 1 0 0010.28 2.28z" />
                     </svg>
-                    <span>Free resources</span>
+                    <span>Networking Opportunities</span>
                   </li>
                   <li className="flex items-center mb-2">
                     <svg
@@ -115,7 +115,7 @@ export function PricingTables(props: PricingTablesProps) {
                     >
                       <path d="M10.28 2.28L3.989 8.575 1.695 6.28A1 1 0 00.28 7.695l3 3a1 1 0 001.414 0l7-7A1 1 0 0010.28 2.28z" />
                     </svg>
-                    <span>Landing page builder</span>
+                    <span>Interview Preparation</span>
                   </li>
                   <li className="flex items-center mb-2">
                     <svg
@@ -125,7 +125,7 @@ export function PricingTables(props: PricingTablesProps) {
                     >
                       <path d="M10.28 2.28L3.989 8.575 1.695 6.28A1 1 0 00.28 7.695l3 3a1 1 0 001.414 0l7-7A1 1 0 0010.28 2.28z" />
                     </svg>
-                    <span>Smart forms and reports</span>
+                    <span>Career Resources</span>
                   </li>
                 </ul>
               </div>
@@ -137,7 +137,7 @@ export function PricingTables(props: PricingTablesProps) {
               >
                 <div className="flex-grow mb-4 pb-4">
                   <div className="flex justify-center items-center mb-1">
-                    <div className="text-xl font-bold">Yearly</div>
+                    <div className="text-xl font-bold">Job Seeker Plan</div>
                     {/* <div className="inline-flex px-3 py-1 text-xs font-medium text-teal-600 dark:text-teal-400 bg-teal-200 dark:bg-teal-600 dark:bg-opacity-25 rounded-full">
                     -40%
                   </div> */}
@@ -145,15 +145,16 @@ export function PricingTables(props: PricingTablesProps) {
                   <div className="inline-flex pt-5 items-baseline mb-2">
                     <span className="h4 text-gray-600 pr-2">$</span>
                     <span className="h4 font-semibold text-black font-mono">
-                      27
+                      9.99
                     </span>
                     <span className="font-medium text-gray-500 ">/</span>
                     <span className="pl-2 font-medium text-gray-500">
-                      billed yearly
+                      billed monthly
                     </span>
                   </div>
                   <div className="text-gray-500">
-                    — Lorem ipsum dolor amet sit consect adipiscing.
+                   — Full access to all job listings and enhanced features.
+                   — Personalized job recommendations and priority support.
                   </div>
                 </div>
                 <div className="mt-24">
@@ -173,7 +174,7 @@ export function PricingTables(props: PricingTablesProps) {
               >
                 <div className="flex-grow mb-4 pb-4">
                   <div className="flex justify-center items-center mb-1">
-                    <div className="text-xl font-bold">Yearly</div>
+                    <div className="text-xl font-bold">Employer Plan</div>
                     {/* <div className="inline-flex px-3 py-1 text-xs font-medium text-teal-600 dark:text-teal-400 bg-teal-200 dark:bg-teal-600 dark:bg-opacity-25 rounded-full">
                     -40%
                   </div> */}
@@ -181,15 +182,16 @@ export function PricingTables(props: PricingTablesProps) {
                   <div className="inline-flex pt-5 items-baseline mb-2">
                     <span className="h4 text-gray-600 pr-2">$</span>
                     <span className="h4 font-semibold text-black font-mono">
-                      27
+                      Customized pricing 
                     </span>
                     <span className="font-medium text-gray-500 ">/</span>
                     <span className="pl-2 font-medium text-gray-500">
-                      billed yearly
+                      billed monthly
                     </span>
                   </div>
                   <div className="text-gray-500">
-                    — Lorem ipsum dolor amet sit consect adipiscing.
+                    — Customized pricing and features tailored to your organization's hiring needs.
+                    — Unlimited job listings, advanced candidate management, and premium support.
                   </div>
                 </div>
                 <div className="mt-24">
@@ -197,7 +199,7 @@ export function PricingTables(props: PricingTablesProps) {
                     className="btn-sm text-lg text-gray-800 tracking-wider hover:bg-opacity-75 bg-teal-200 hover:bg-teal-400 w-full"
                     href="#0"
                   >
-                    Go Premium
+                    Get Quote
                   </a>
                 </div>
               </div>
@@ -209,7 +211,7 @@ export function PricingTables(props: PricingTablesProps) {
               >
                 <div className="flex-grow mb-4 pb-4">
                   <div className="flex justify-center items-center mb-1">
-                    <div className="text-xl font-bold">Yearly</div>
+                    <div className="text-xl font-bold">Recruiter/Recruiting Agency Plan</div>
                     {/* <div className="inline-flex px-3 py-1 text-xs font-medium text-teal-600 dark:text-teal-400 bg-teal-200 dark:bg-teal-600 dark:bg-opacity-25 rounded-full">
                     -40%
                   </div> */}
@@ -217,7 +219,7 @@ export function PricingTables(props: PricingTablesProps) {
                   <div className="inline-flex pt-5 items-baseline mb-2">
                     <span className="h4 text-gray-600 pr-2">$</span>
                     <span className="h4 font-semibold text-black font-mono">
-                      27
+                      Customized pricing 
                     </span>
                     <span className="font-medium text-gray-500 ">/</span>
                     <span className="pl-2 font-medium text-gray-500">
@@ -225,7 +227,8 @@ export function PricingTables(props: PricingTablesProps) {
                     </span>
                   </div>
                   <div className="text-gray-500">
-                    — Lorem ipsum dolor amet sit consect adipiscing.
+                    — We offer tailored plans for recruiters and recruiting agencies.
+                    — Get in touch with our team to discuss your specific requirements and pricing options
                   </div>
                 </div>
                 <div className="mt-24">
@@ -233,7 +236,7 @@ export function PricingTables(props: PricingTablesProps) {
                     className="btn-sm text-lg text-gray-800 tracking-wider hover:bg-opacity-75 bg-teal-200 hover:bg-teal-400 w-full"
                     href="#0"
                   >
-                    Go Premium
+                    Contact Us
                   </a>
                 </div>
               </div>
