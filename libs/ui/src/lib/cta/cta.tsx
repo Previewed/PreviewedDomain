@@ -68,7 +68,7 @@ export function Cta(props: CtaProps) {
             {/* CTA content */}
             <div className="mb-6 lg:mr-16 lg:mb-0 text-center lg:text-left lg:w-1/2">
               <h3 className="text-gray-100 text-3xl tracking-wide font-normal">
-                Free until you’re ready to launch
+             Join the Waitlist and Be the First to Preview Your Future!       
               </h3>
             </div>
 
@@ -78,14 +78,14 @@ export function Cta(props: CtaProps) {
                 <input
                   type="tel"
                   className="form-input w-full mb-2 sm:mb-0 sm:mr-2"
-                  placeholder="Phone number"
-                  aria-label="Phone number"
+                  placeholder="Email Address"
+                  aria-label="Email Address"
                 />
                 <a
                   className="btn text-gray-900 bg-teal-200 hover:bg-teal-300 flex-shrink-0"
                   href="#0"
                 >
-                  Request code
+                  Sign Up
                 </a>
               </div>
               {/* Success message */}
