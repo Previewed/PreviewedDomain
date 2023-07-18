@@ -29,12 +29,12 @@ export function Tabs(props: TabsProps) {
           {/* Section header */}
           <div className="max-w-3xl pb-12 mx-auto text-center md:pb-16">
             <h2 className="mb-4 font-bold text-4xl">
-              Register for the previewed plateform
+              Register For The Previewed Platform Today!
             </h2>
             <p className="text-xl text-gray-600">
               We have a lot of great things to show you. You can watch our
               videos or read our getting started guide to get started. It shows
-              the demo of how you can register and get start looking for your
+              the demo of how you can register and get started looking for your
               dream job.
             </p>
           </div>
